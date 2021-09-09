@@ -13,9 +13,26 @@ body {
   justify-content: center;
 }
 
+.title {
+  z-index: 999;
+  margin-top: 0px;
+  position: absolute;
+  font-size: 25px;
+  width: 100vw;
+  height: 9%;
+  left: 0px;
+  top: 0px;
+  position: fixed;
+  padding: 15px 0 10px 100px;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  background-color: grey;
+}
+
 .contenedor {
   width: 90%;
   max-width: 900px;
+  margin-top: 3.5rem;
 }
 
 .contenedor-lista {
@@ -80,4 +97,18 @@ body {
   height: 90px;
   border-radius: 100%;
   margin-right: 40px;
+}
+.footer_js {
+  width: 100vw;
+  height: 5%;
+  padding: 10px 0 0 130px;
+  position: fixed;
+  bottom: 0px;
+  opacity: 0.6;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: grey;
+}
+.footer-link {
+  color: white;
 }

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Listas con Drag and Drop || SortableJS</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="contenedor-lista">
+        <h1>Drag and Drop con Javascript</h1>
+
+        <div class="lista" id="lista">
+          <!-- Persona #1 -->
+          <div class="producto" data-id="1">
+            <div class="foto">
+              <img src="img/1.png" alt="" />
+            </div>
+            <div class="nombre">
+              <div>
+                <p class="label">Product</p>
+                <p class="dato">Succulent Box</p>
+              </div>
+            </div>
+            <div class="precio">
+              <p class="label">Precio</p>
+              <p class="dato">24 $</p>
+            </div>
+            <div class="descripcion">
+              <div class="label">Description</div>
+              <p class="dato">...</p>
+            </div>
+          </div>
+
+          <!-- Persona #2 -->
+          <div class="producto" data-id="2">
+            <div class="foto">
+              <img src="img/2.png" alt="" />
+            </div>
+            <div class="nombre">
+              <div>
+                <p class="label">Product</p>
+                <p class="dato">Wine Box</p>
+              </div>
+            </div>
+            <div class="precio">
+              <p class="label">Price</p>
+              <p class="dato">20 $</p>
+            </div>
+            <div class="descripcion">
+              <div class="label">Description</div>
+              <p class="dato">...</p>
+            </div>
+          </div>
+
+          <!-- Persona #3 -->
+          <div class="producto" data-id="3">
+            <div class="foto">
+              <img src="img/3.png" alt="" />
+            </div>
+            <div class="nombre">
+              <div>
+                <p class="label">Product</p>
+                <p class="dato">Pinky Box</p>
+              </div>
+            </div>
+            <div class="precio">
+              <p class="label">Price</p>
+              <p class="dato">21 $</p>
+            </div>
+            <div class="descripcion">
+              <div class="label">Description</div>
+              <p class="dato">...</p>
+            </div>
+          </div>
+
+          <!-- Persona #4 -->
+          <div class="producto" data-id="4">
+            <div class="foto">
+              <img src="img/4.png" alt="" />
+            </div>
+            <div class="nombre">
+              <div>
+                <p class="label">Producto</p>
+                <p class="dato">Cool Box</p>
+              </div>
+            </div>
+            <div class="precio">
+              <p class="label">Price</p>
+              <p class="dato">18 $</p>
+            </div>
+            <div class="descripcion">
+              <div class="label">Description</div>
+              <p class="dato">...</p>
+            </div>
+          </div>
+          <!-- Persona #5 -->
+          <div class="producto" data-id="5">
+            <div class="foto">
+              <img src="img/5.png" alt="" />
+            </div>
+            <div class="nombre">
+              <div>
+                <p class="label">Product</p>
+                <p class="dato">Love Box</p>
+              </div>
+            </div>
+            <div class="precio">
+              <p class="label">Price</p>
+              <p class="dato">18 $</p>
+            </div>
+            <div class="descripcion">
+              <div class="label">Description</div>
+              <p class="dato">...</p>
+            </div>
+          </div>
+
+          <!-- Persona #6 -->
+          <div class="producto" data-id="6">
+            <div class="foto">
+              <img src="img/6.png" alt="" />
+            </div>
+            <div class="nombre">
+              <div>
+                <p class="label">Product</p>
+                <p class="dato">Happy Bday Box</p>
+              </div>
+            </div>
+            <div class="precio">
+              <p class="label">Price</p>
+              <p class="dato">19 $</p>
+            </div>
+            <div class="descripcion">
+              <div class="label">Description</div>
+              <p class="dato">...</p>
+            </div>
+          </div>
+          <!-- Persona #7 -->
+          <div class="producto" data-id="7">
+            <div class="foto">
+              <img src="img/7.png" alt="" />
+            </div>
+            <div class="nombre">
+              <div>
+                <p class="label">Product</p>
+                <p class="dato">Gift Box</p>
+              </div>
+            </div>
+            <div class="precio">
+              <p class="label">Price</p>
+              <p class="dato">18 $</p>
+            </div>
+            <div class="descripcion">
+              <div class="label">Description</div>
+              <p class="dato">...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
